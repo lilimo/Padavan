@@ -176,8 +176,6 @@ function submitInternet(v){
                                     <div class="alert alert-info" style="margin: 10px;">
                                         <#FW_desc1#>
                                         <ol>
-                                            <li><#FW_desc2#></li>
-                                            <li><#FW_desc3#></li>
                                             <li><#FW_desc4#></li>
                                             <li><#FW_desc5#></li>
                                             <li><#FW_desc6#></li>
