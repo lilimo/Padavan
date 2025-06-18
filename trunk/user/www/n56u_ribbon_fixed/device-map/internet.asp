@@ -359,22 +359,6 @@ function submitInternet(v){
     <th><#MAC_Address#></th>
     <td colspan="3"><span id="WANMAC"></span></td>
   </tr>
-  <tr id="row_more_links">
-    <td style="padding-bottom: 0px;">&nbsp;</td>
-    <td style="padding-bottom: 0px;" colspan="3">
-        <select id="domore" class="domore" style="width: 260px;" onchange="domore_link(this);">
-          <option selected="selected"><#MoreConfig#>...</option>
-          <option value="../Advanced_WAN_Content.asp"><#menu5_3_1#></option>
-          <option value="../Advanced_IPv6_Content.asp"><#menu5_3_3#></option>
-          <option value="../Advanced_VirtualServer_Content.asp"><#menu5_3_4#></option>
-          <option value="../Advanced_Exposed_Content.asp"><#menu5_3_5#></option>
-          <option value="../Advanced_DDNS_Content.asp"><#menu5_3_6#></option>
-          <option value="../Advanced_Modem_others.asp"><#menu5_4_4#></option>
-          <option value="../vpnsrv.asp"><#menu2#></option>
-          <option value="../vpncli.asp"><#menu6#></option>
-        </select>
-    </td>
-  </tr>
 </table>
 
 <form method="post" name="internetForm" action="">
