@@ -38,17 +38,6 @@ performance.now = (function() {
 function initial(){
 	flash_button();
 
-	if(!support_usb())
-		$j("#domore")[0].remove(6);
-
-	if(sw_mode == '4'){
-		$j("#domore")[0].remove(4);
-		$j("#domore")[0].remove(3);
-	}
-
-	if(!support_ipv6())
-		$j("#domore")[0].remove(2);
-
 	if(typeof parent.modem_devnum === 'function'){
 		if(parent.modem_devnum().length > 0)
 			$("row_modem_prio").style.display = "";
